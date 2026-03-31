@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Coffee House</title>
+  <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
@@ -17,9 +19,36 @@
     </header>
 
     <section class="hero">
-        <h2>Le goût du vrai café</h2>
-        <button>Voir le menu</button>
+    <h2>Le goût du vrai café</h2>
+    <button onclick="scrollToMenu()">Voir le menu</button>
     </section>
+
+    <section id="menu" class="menu">
+    <h2>Menu</h2>
+    <div class="items">
+        <div class="card">Espresso</div>
+        <div class="card">Cappuccino</div>
+        <div class="card">Latte</div>
+    </div>
+    </section>
+
+    <section class="about">
+    <h2>À propos</h2>
+    <p>Un endroit chaleureux pour profiter d’un bon café entre amis.</p>
+    </section>
+
+    <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Tunis</p>
+    <p>00 000 000</p>
+    </section>
+
+    <footer>
+    <p>© 2026 RoyalCoffee House</p>
+    </footer>
+
+    <script src="script.js"></script>
+
 
     
 

@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f5f5f5;
+  transition: 0.3s;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #6b4f4f;
+  color: white;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px;
+  background: #d9cfcf;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #6b4f4f;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.menu {
+  text-align: center;
+  padding: 50px;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.about, .contact {
+  text-align: center;
+  padding: 40px;
+}
+
+footer {
+  text-align: center;
+  padding: 60px;
+  background: #6b4f4f;
+  color: white;
+}
+
+/* 🌙 Dark Mode */
+.dark {
+  background: #221e1e;
+  color: white;
+}
+
+.dark .card {
+  background: #1e1e1e;
+}
+
+.dark header, .dark footer {
+  background: #000;
+}
