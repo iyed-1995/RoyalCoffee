@@ -151,7 +151,26 @@ Si vous souhaitez contribuer au projet :
    git push origin feature/ma-nouvelle-fonctionnalite
    ```
 
+
+
+
+
 ---
+
+
+## 🐳 Docker Setup
+
+### Prérequis
+- Docker installé sur votre machine
+- Docker Compose installé
+
+---
+
+### 🔨 Build de l’image Docker
+
+```bash
+docker build -t royalcoffee .
+
 
 ## Licence
 
@@ -159,4 +178,5 @@ Ce projet est développé à titre éducatif.
 
 ---
 
-**Dernière mise à jour** : Mars 2026
+
+**Dernière mise à jour** : Avril 2026
