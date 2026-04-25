@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  web:
+    build: .
+    container_name: royalcoffee-app
+    ports:
+      - "8080:80"
+    restart: always
+
+  # BONUS service (optional)
+  logs:
+    image: busybox
+    container_name: dummy-logs
+    command: tail -f /dev/null
