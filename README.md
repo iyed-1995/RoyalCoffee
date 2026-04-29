@@ -14,10 +14,10 @@ RoyalCoffee est une application web interactive dédiée à la présentation et 
 
 ## Membres du Groupe
 
-| Nom Complet | Rôle |
-|-------------|------|
-| Ahmed Aziz Khenissi | Développeur Full Stack |
-| Aziz Zaafrani | Développeur Full Stack |
+| Nom Complet 
+|-------------
+| Iyed Shili 
+| Sadri lassadi 
 
 ---
 
